@@ -1,0 +1,98 @@
+/* selecteur */
+/* h1 {
+  color: coral;
+}
+
+header h1 {
+  color: crimson;
+}
+
+.titre {
+  color: darkolivegreen;
+}
+
+h1.titre {
+  color: darkviolet;
+} */
+
+#welcome {
+  color: deepskyblue;
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 100px;
+}
+
+/* propriete */
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container-propriete{
+  /* margin: 10vw; */
+  /* padding: 30px; */
+  border: 3px solid black;
+  width: min-content;
+  box-shadow: 20px 20px 5px black;
+  transform: translateX(-50%);
+  margin-left: 50vw ;
+  margin-top: 30vh;
+}
+
+.circle{
+  background-color: mediumseagreen;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.text{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  transform: translateY(250%);
+  color: white;
+  font-size: 30px;
+}
+
+/* flex */
+.flex-box{
+  border: 10px solid dodgerblue;
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-item{
+  margin: 2em;
+  width: 80px;
+  height: 80px;
+  background-color: crimson;
+  color: white;
+  font-weight: 800;
+}
+
+.flex-item-2{
+  align-self: flex-start;
+}
+
+
+/* grid */
+.grid{
+  margin-bottom: 8em;
+  display: grid;
+  background-color: grey;
+  gap: 10px;
+  /* grid-template-columns: 50px 1fr 2fr; */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+[class^="el-"]{
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+  color: white;
+}
